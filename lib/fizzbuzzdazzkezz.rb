@@ -1,4 +1,4 @@
-class Object
+class Kernel
   def print_fizzbuzzdazzkezz
     hash = {7 => "Dazz", 5 => "Buzz", 3 => "Fizz" , 9 => "Kess"}
     (1..100).each do |i|
