@@ -1,5 +1,5 @@
-class Kernel
-  def print_fizzbuzzdazzkezz
+class FizzBuzzDazzKezz
+  def self.to_s
     hash = {7 => "Dazz", 5 => "Buzz", 3 => "Fizz" , 9 => "Kess"}
     (1..100).each do |i|
       str = ''
