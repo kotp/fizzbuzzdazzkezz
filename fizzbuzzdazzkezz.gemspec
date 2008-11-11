@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.test_files = ""
   s.author = "Takaaki Kato"
   s.email = "takaaki@samuraicoder.net"
-  s.has_rdoc = false
+  s.has_rdoc = true
   s.required_ruby_version = '>=1.8.6'
 end
