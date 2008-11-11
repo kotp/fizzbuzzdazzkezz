@@ -1,11 +1,13 @@
+class Range
+
 =begin rdoc
   Usage: (1..100).print_fizzbuzzdazzkezz(hash)
+
   By default, the following Hash is presented:
       {3 => :Fizz, 5 => :Buzz, 7 => :Dazz , 9 => :Kess}
   We use symbols as it is cheaper than using strings.
 =end
 
-class Range
   def print_fizzbuzzdazzkezz(hash = {7 => :Dazz, 5 => :Buzz, 3 => :Fizz , 9 => :Kezz})
     hash = hash
     result = Array.new
@@ -18,4 +20,6 @@ class Range
       puts str
     end
   end
+
+  alias print_fbdk print_fizzbuzzdazzkezz # Just to save some typing.
 end

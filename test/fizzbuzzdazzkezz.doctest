@@ -1,0 +1,6 @@
+doctest: required files are all here.
+>> require '../lib/fizzbuzzdazzkezz'
+=> true
+doctest: aliased method is working.
+>> (1..10).print_fbdk
+=> (1..10)
