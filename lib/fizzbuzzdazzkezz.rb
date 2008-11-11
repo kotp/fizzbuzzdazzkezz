@@ -5,6 +5,7 @@
   We use symbols as it is cheaper than using strings.
 =end
 
+
 class Range
   def print_fizzbuzzdazzkezz(hash = {7 => :Dazz, 5 => :Buzz, 3 => :Fizz , 9 => :Kess})
     hash = hash
