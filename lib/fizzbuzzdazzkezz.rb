@@ -1,10 +1,17 @@
-class FizzBuzzDazzKezz
-  def self.to_s
-    hash = {7 => "Dazz", 5 => "Buzz", 3 => "Fizz" , 9 => "Kess"}
-    (1..100).each do |i|
+=begin rdoc
+  Usage: (1..100).print_fizzbuzzdazzkezz(hash)
+  By default, the following Hash is presented:
+      {3 => :Fizz, 5 => :Buzz, 7 => :Dazz , 9 => :Kess}
+  We use symbols as it is cheaper than using strings.
+=end
+
+class Range
+  def print_fizzbuzzdazzkezz(hash = {7 => :Dazz, 5 => :Buzz, 3 => :Fizz , 9 => :Kess})
+    hash = hash
+    self.each do |i|
       str = ''
       hash.sort.each do |key, value|
-        str += value if i.modulo(key).zero?
+        str += value.to_s if i.modulo(key).zero?
       end
       str = i if str.empty?
       puts str
