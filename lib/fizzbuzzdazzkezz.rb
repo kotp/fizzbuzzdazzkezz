@@ -9,6 +9,7 @@
 class Range
   def print_fizzbuzzdazzkezz(hash = {7 => :Dazz, 5 => :Buzz, 3 => :Fizz , 9 => :Kess})
     hash = hash
+    result = Array.new
     self.each do |i|
       str = ''
       hash.sort.each do |key, value|
