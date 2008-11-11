@@ -1,4 +1,4 @@
-class String
+class Object
   def print_fizzbuzzdazzkezz
     hash = {7 => "Dazz", 5 => "Buzz", 3 => "Fizz" , 9 => "Kess"}
     (1..100).each do |i|
