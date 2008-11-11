@@ -1,5 +1,5 @@
 require 'rubygems'
-spec = Gems::Specification.new do |s|
+spec = Gem::Specification.new do |s|
   s.name = 'fizzbuzzdazzkezz'
   s.version = '0.0.1'
   s.summary = "When FizzBuzz is not enough."
