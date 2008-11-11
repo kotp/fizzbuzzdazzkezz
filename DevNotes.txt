@@ -1,0 +1,32 @@
+Total Flog = 21.7 (10.9 +/- 75.1 flog / method)
+
+Range#print_fizzbuzzdazzkezz: (19.5)
+    11.5: assignment
+     5.5: branch
+     2.6: each
+     1.8: to_s
+     1.7: modulo
+     1.6: +
+     1.6: sort
+     1.5: zero?
+     1.4: puts
+     1.4: empty?
+     1.2: lit_fixnum
+
+[Large Class] Range has 50 methods
+[Nested Iterators] Range#print_fizzbuzzdazzkezz has nested iterators
+
+=== Testing 'fizzbuzzdazzkezz.doctest'...
+ OK  | required files are all here.
+1
+2
+Fizz
+4
+Buzz
+Fizz
+Dazz
+8
+FizzKezz
+Buzz
+ OK  | aliased method is working.
+2 comparisons, 2 doctests, 0 failures, 0 errors
