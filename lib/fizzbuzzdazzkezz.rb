@@ -43,8 +43,8 @@ Sample:
     end
     results.empty? ?  to_s + "\n" : results + "\n"
   end
-  public
-  alias fizzbuzz fizzbuzzdazzkezz
+  
+  alias fizzbuzzdazzkezz fizzbuzz 
 end # end of Class Integer
 
 
