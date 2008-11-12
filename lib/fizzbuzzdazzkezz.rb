@@ -28,7 +28,7 @@ class Integer
 Usage: int.fizzbuzz(hash = {3 => :Fizz, 5 => :Buzz})
 
 Sample: 
-    results = ''
+      results = ''
       (1..100).each do |num|
       results << num.fizzbuzz
       end
@@ -43,6 +43,8 @@ Sample:
     end
     results.empty? ?  to_s + "\n" : results + "\n"
   end
+  public
+  alias fizzbuzz fizzbuzzdazzkezz
 end # end of Class Integer
 
 
