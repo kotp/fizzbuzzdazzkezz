@@ -22,4 +22,27 @@ class Range
   alias print_fbdk print_fizzbuzzdazzkezz
 end # End of class Range
 
+class Integer
+
+=begin rdoc
+Usage: int.fizzbuzz(hash = {3 => :Fizz, 5 => :Buzz})
+
+Sample: 
+    results = ''
+      (1..100).each do |num|
+      results << num.fizzbuzz
+      end
+
+    puts results
+=end
+
+  def fizzbuzz(hash = {3 => :Fizz, 5 => :Buzz})
+    results = ''
+    hash.sort.each do |key, value|
+      modulo(key.to_i) == 0 ? results << value.to_s : nil
+    end
+    results.empty? ?  to_s + "\n" : results + "\n"
+  end
+end # end of Class Integer
+
 
