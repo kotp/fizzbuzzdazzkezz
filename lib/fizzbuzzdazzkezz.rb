@@ -38,7 +38,7 @@ Sample:
 
   def fizzbuzz(hash = {3 => :Fizz, 5 => :Buzz})
     results = ''
-    hash.sort.each do |key, value|
+    hash.to_a.sort.each do |key, value|
       results << value.to_s if modulo(key).zero?
     end
     results.empty? ?  to_s + "\n" : results + "\n"
