@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/kotp/fizzbuzzdazzkezz'
   s.files = ['README', 'lib/fizzbuzzdazzkezz.rb']
   s.authors = ['Various Authors']
-  s.emails = ['keeperotphones+fizzbuzz@gmail.com']
+  s.email = 'keeperotphones+fizzbuzz@gmail.com'
   s.has_rdoc = true
   s.required_ruby_version = '>=2.0'
   s.post_install_message = "Enjoy having more than just your share of FizzBuzz!"
