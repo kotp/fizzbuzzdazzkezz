@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.summary = 'When FizzBuzz is not enough.'
   s.description = 'When FizzBuzz is not enough, and you want to make your own rules.'
   s.homepage = 'https://github.com/kotp/fizzbuzzdazzkezz'
-  s.files = ['README.md', 'lib/fizzbuzzdazzkezz.rb']
+  s.files = ['README', 'lib/fizzbuzzdazzkezz.rb']
   s.authors = ['Various Authors']
   s.emails = ['keeperotphones+fizzbuzz@gmail.com']
   s.has_rdoc = true
